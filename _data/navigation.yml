@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /posts/
+    url: /_pages/Home.md
   - title: "Resume Outline"
     url: /categories/
   - title: "Project section"
