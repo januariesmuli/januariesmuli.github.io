@@ -29,7 +29,7 @@ excerpt: "Building Secure Systems. Connecting People. Enabling Digital Transform
 
 ## Welcome to My Professional Portfolio
 
-![Januaries Muli](/assets/images/bio-photo.jpg){: .align-right width="230px"}
+![Januaries Muli](/assets/images/januaries.jpeg){: .align-right width="230px"}
 
 I am **Januaries Muli**, an Information and Communication Technology (ICT) professional passionate about technology, innovation, systems development and cybersecurity.
 
