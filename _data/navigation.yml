@@ -1,11 +1,15 @@
 main:
-  - title: "Home"
+    - title: "Home"
     url: /
-  - title: "Resume Outline"
-    url: /categories/
-  - title: "Project section"
-    url: /tags/
-  - title: "Lab Challenges section"
-    url: /about/
- - title: "Contacts section"
-    url: /about/
+
+    - title: "Resume"
+    url: /resume/
+
+    - title: "Projects"
+    url: /projects/
+
+    - title: "Lab Challenges"
+    url: /lab-challenges/
+
+    - title: "Contact"
+    url: /contact/
