@@ -1,15 +1,3 @@
 main:
     - title: "Home"
     url: /
-
-    - title: "Resume"
-    url: /resume/
-
-    - title: "Projects"
-    url: /projects/
-
-    - title: "Lab Challenges"
-    url: /lab-challenges/
-
-    - title: "Contact"
-    url: /contact/
