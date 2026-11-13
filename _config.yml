@@ -59,8 +59,12 @@ plugins:
 
 author:
   name   : "Januaries Muli"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/januaries.jpeg"
+  bio    : "ICT professional specializing in systems development, web technologies,
+  cybersecurity and network infrastructure. Currently serving as Diocesan
+  ICT Technician at the Catholic Diocese of Maralal, focused on developing
+  secure digital solutions, managing ICT infrastructure and driving
+  technology-enabled institutional transformation"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
