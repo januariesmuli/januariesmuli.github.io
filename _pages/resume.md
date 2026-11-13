@@ -243,7 +243,6 @@ toc_icon: "user-tie"
 
 <h1>JANUARIES MULI</h1>
 
-<h3>Diocesan ICT Technician</h3>
 
 <p>
 Web Developer | Systems Developer | Cybersecurity Enthusiast
