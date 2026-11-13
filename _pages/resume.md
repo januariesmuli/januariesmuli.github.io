@@ -566,9 +566,10 @@ Practised cybersecurity techniques in authorized training environments.
 
 </div>
 
+
 <!-- EDUCATION -->
 
-<h2 class="section-title">05. Education</h2>
+<h2 class="section-title">05. Education Background</h2>
 
 <div class="timeline">
 
@@ -580,7 +581,17 @@ Practised cybersecurity techniques in authorized training environments.
 
 2021 – 2023
 
-**Grade: Credit**
+</div>
+
+<div class="timeline-item">
+
+<h3>Cybersecurity Training – Security Analyst Track</h3>
+
+**Cyber Shujaa Programme | United States International University-Africa (USIU-Africa)**
+
+August 2026 – December 2026
+
+Undertook professional cybersecurity training through the Cyber Shujaa Programme, focusing on security analysis, practical cybersecurity skills, information security and risk management.
 
 </div>
 
@@ -592,9 +603,20 @@ Practised cybersecurity techniques in authorized training environments.
 
 2015 – 2019
 
-**Grade: C**
+</div>
+
+<div class="timeline-item">
+
+<h3>Kenya Certificate of Primary Education (KCPE)</h3>
+
+**Nzikini Primary School**
+
+2006 – 2014
 
 </div>
+
+</div>
+
 
 <div class="timeline-item">
 
