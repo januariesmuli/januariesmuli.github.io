@@ -1,272 +1,258 @@
 
 ---
-title: "Professional Resume"
 layout: single
+title: "Professional Resume"
 permalink: /resume/
-author_profile: false
+author_profile: true
 classes: wide
 toc: true
 toc_label: "Resume Contents"
-toc_icon: "user-tie"
+toc_icon: "list"
 ---
-
-<div align="center">
 
 # JANUARIES MULI
 
-### ICT PROFESSIONAL | SYSTEMS DEVELOPER | WEB DEVELOPER | CYBERSECURITY ENTHUSIAST
+### Diocesan ICT Technician | Web Developer | Systems Developer | Cybersecurity Enthusiast
 
-**Innovating Through Technology. Building Secure Digital Solutions.**
-
-📍 Kenya | ✉️ januariesmuli87@gmail.com | ☎️ +254 793 994 571
-
-[Download Resume](#){: .btn .btn--success}
-[GitHub](https://github.com/YOUR_GITHUB_USERNAME){: .btn .btn--primary}
-
-</div>
+**Email:** januariesmuli87@gmail.com  
+**Phone:** +254 793 994 571  
+**Location:** Kenya
 
 ---
 
-## 01. Professional Profile
+## Professional Profile
 
-An Information and Communication Technology professional with practical experience in ICT infrastructure management, systems development, web development, cybersecurity, networking and technical support.
+A dedicated and results-oriented ICT professional with practical experience in information technology support, systems development, web development, cybersecurity, networking and ICT infrastructure management.
 
-Currently serving as a **Diocesan ICT Technician at the Catholic Diocese of Maralal**, responsible for supporting and strengthening institutional technology infrastructure through software development, network administration, system maintenance, cybersecurity practices and ICT project implementation.
+Currently serving as a **Diocesan ICT Technician at the Catholic Diocese of Maralal**, where I manage ICT operations, develop and maintain digital platforms, provide technical support, coordinate ICT projects and support the implementation of secure and reliable technology solutions.
 
-Experienced in developing web applications, managing databases, maintaining servers, implementing ICT infrastructure and providing technical support to institutional users.
+I have practical experience developing web applications, managing databases, maintaining computer systems, supporting institutional networks and implementing ICT infrastructure. I am passionate about technology, continuous learning, innovation and using digital solutions to improve organizational efficiency.
 
-Proficient in HTML5, CSS3, JavaScript, PHP, Python, Perl, MySQL, Git and GitHub, with a strong interest in secure systems engineering, emerging technologies and digital transformation.
-
----
-
-## 02. Core Competencies
-
-<div class="notice--success">
-  **Professional Strengths**
-
-  Systems Development · ICT Infrastructure · Cybersecurity · Web Technologies · Network Administration · IT Project Management
-</div>
-
-| Technical Area | Skills and Competencies |
-|:---|:---|
-| Web Development | HTML5, CSS3, JavaScript, PHP |
-| Programming | PHP, Python, Perl, JavaScript |
-| Database Management | MySQL, database administration and data management |
-| Cybersecurity | Information security, cyber risk management, security testing |
-| Networking | Network administration, configuration and troubleshooting |
-| Systems Administration | Operating systems, server maintenance, backups |
-| ICT Infrastructure | CCTV, biometrics, intercom and hardware management |
-| Technical Support | Hardware/software troubleshooting, antivirus and driver installation |
-| Version Control | Git and GitHub |
-| ICT Management | ICT budgeting, procurement, project coordination and end-user training |
-
----
-
-## 03. Professional Experience
+## Professional Experience
 
 ### Diocesan ICT Technician
+**Catholic Diocese of Maralal | January 2025 – Present**
 
-**Catholic Diocese of Maralal**
+Key responsibilities and achievements:
 
-<small>January 2025 – Present | Kenya</small>
-
-Responsible for managing, maintaining and developing the Diocese's ICT infrastructure, systems and digital platforms.
-
-**Key Responsibilities and Contributions**
-
-- Develop and maintain institutional websites and web-based applications.
-- Design, develop and maintain information management systems.
-- Administer networks and troubleshoot connectivity and infrastructure issues.
-- Implement cybersecurity practices and support information security.
-- Manage servers, system maintenance and data backup operations.
-- Install and maintain CCTV surveillance systems.
-- Install and configure biometric attendance and access control systems.
-- Implement and maintain intercom communication infrastructure.
-- Provide technical support, hardware maintenance and software troubleshooting.
-- Install operating systems, applications, drivers and antivirus solutions.
-- Coordinate ICT projects and provide technical guidance across diocesan institutions.
-- Participate in ICT procurement, budgeting and technology planning.
-- Provide end-user training and technical assistance.
-
-**Selected Contributions**
-
-- Developed and maintained the Catholic Diocese of Maralal website.
-- Developed and supported the Radio Mchungaji digital platform.
-- Initiated development of a diocesan ERP contribution management system.
-- Supported hospital management system deployment and ICT infrastructure improvements.
-
----
+- Manage and maintain diocesan ICT infrastructure, systems and digital services.
+- Develop, update and maintain institutional websites and web-based applications.
+- Provide technical support, troubleshooting and end-user assistance across diocesan institutions.
+- Develop and maintain ICT systems, databases and digital platforms.
+- Support cybersecurity practices, system security and data protection.
+- Administer networks, servers, computer systems and related infrastructure.
+- Coordinate ICT projects, installations, maintenance and technology upgrades.
+- Install and maintain CCTV surveillance, biometric attendance systems and intercom infrastructure.
+- Conduct server maintenance, system updates and data backups.
+- Prepare ICT budgets, technical recommendations and procurement requirements.
+- Provide ICT consultancy and technical guidance to diocesan departments and institutions.
 
 ### ICT Attachment
+**Mount Kenya University | January 2024 – April 2024**
 
-**Mount Kenya University (MKU)**
+Key responsibilities:
 
-<small>January 2024 – April 2024 | Kenya</small>
-
-Participated in ICT operations, software development, technical support and institutional technology initiatives.
-
-**Key Responsibilities**
-
-- Developed systems and optimized web applications.
-- Developed applications using HTML5, CSS3, JavaScript and PHP.
-- Built reusable code components for future development.
-- Provided end-user training for developed products.
-- Collaborated with developers to deliver solutions according to specifications.
-- Installed antivirus software and performed virus detection.
-- Identified and installed appropriate hardware drivers.
-- Performed network troubleshooting and technical support.
-- Participated in hardware procurement.
-- Prepared computers for installation.
-- Installed operating systems and software environments.
+- Developed and supported web-based applications using HTML5, CSS3, JavaScript and PHP.
+- Assisted in developing reusable code and maintaining web applications.
+- Provided technical support and end-user training.
+- Installed antivirus software and assisted with virus detection and removal.
+- Installed computer drivers and configured hardware and software.
+- Troubleshot network connectivity and computer hardware problems.
+- Assisted with hardware procurement and computer preparation.
+- Installed operating systems and configured computer environments.
+- Collaborated with other technical personnel to resolve ICT challenges.
 
 ---
 
-## 04. Selected Projects
+## Technical Skills
+
+### Web Development
+- HTML5
+- CSS3
+- JavaScript
+- PHP
+- Responsive Web Design
+- Website Development and Maintenance
+
+### Systems Development and Databases
+- PHP and MySQL
+- Database Design and Management
+- Web Application Development
+- System Analysis and Development
+- CRUD Operations and Data Management
+
+### Cybersecurity
+- Vulnerability Assessment
+- Security Testing
+- Web Application Security
+- SQL Injection Testing in Authorized Labs
+- Linux Command-Line Operations
+- Cyber Risk Management
+- Information Security Fundamentals
+
+### Networking and Infrastructure
+- Network Configuration and Troubleshooting
+- LAN and Internet Connectivity
+- Network Administration
+- CCTV Installation and Maintenance
+- Biometric Systems
+- Intercom Systems
+
+### System Administration and IT Support
+- Windows and Linux Administration
+- Server Maintenance
+- Data Backup and Recovery
+- Hardware and Software Troubleshooting
+- Operating System Installation
+- Antivirus Installation and Maintenance
+- End-User Support and Training
+
+### Tools and Technologies
+- Git and GitHub
+- MySQL
+- XAMPP
+- WordPress
+- Bootstrap
+- QuickBooks
+- AutoCAD
+- Zoom, Google Meet and Microsoft Teams
+
+### Professional Skills
+- ICT Project Coordination
+- Technical Documentation
+- ICT Budget Preparation
+- IT Consultancy
+- Problem Solving
+- Customer Service
+- Team Collaboration
+- Technical Training
+
+---
+
+## Selected Projects
 
 ### 1. Catholic Diocese of Maralal Website
+**Website Development and Administration**
 
-**Technologies:** HTML, CSS, JavaScript, PHP and Web Technologies
+Developed and maintain the diocesan website to support institutional communication, public information and digital visibility.
 
-Developed and maintain the diocesan digital platform to improve institutional communication, information sharing and online visibility.
+- Website content and page management.
+- Institutional news, announcements and events.
+- Website maintenance and technical support.
+- Domain and SSL management.
 
-**Website:** [maralalcatholicdiocese.org](https://maralalcatholicdiocese.org/)
+**Live Website:** [maralalcatholicdiocese.org](https://maralalcatholicdiocese.org/)
 
 ### 2. Radio Mchungaji Website
+**Website Development and Digital Media Integration**
 
-**Technologies:** WordPress, PHP, HTML, CSS and JavaScript
+Developed and maintain the Radio Mchungaji website to support Catholic evangelization, online broadcasting and digital audience engagement.
 
-Developed the digital platform for Radio Mchungaji, supporting online broadcasting, radio programming, digital engagement and evangelization.
+- Website design and content management.
+- Online radio streaming integration.
+- Programme and presenter information.
+- Digital media and communication support.
 
-**Website:** [radiomchungaji.co.ke](https://radiomchungaji.co.ke/)
+**Live Website:** [radiomchungaji.co.ke](https://radiomchungaji.co.ke/)
 
-### 3. CDM ERP – Contribution Management System
+### 3. CDM ERP – Contributions Management System
+**PHP and MySQL System Development**
 
-**Technologies:** PHP, MySQL, JavaScript, Bootstrap
+Developing a web-based enterprise resource planning platform for diocesan contribution management.
 
-Developing a diocesan contribution management platform to support financial contribution recording, allocation, reporting, performance analytics and institutional accountability.
+- Contribution and collection recording.
+- Parish and diocesan contribution tracking.
+- Financial allocation calculations.
+- Performance analytics and reporting.
+- User management and access control.
+- Audit logging and security features.
 
 ### 4. Wamba Hospital Management System
+**Hospital ICT Implementation Support**
 
-**Area:** Healthcare Information Systems and ICT Deployment
+Supported the deployment and configuration of a hospital management system at Wamba Hospital.
 
-Participated in deployment and configuration of a hospital management system supporting inpatient, outpatient, laboratory, pharmacy and medicine management operations.
+- Supported implementation of inpatient and outpatient modules.
+- Assisted with laboratory and pharmacy configuration.
+- Configured services and medicine pricing.
+- Supported system administration and user access.
+- Assisted with internet connectivity and technical troubleshooting.
 
-### 5. Voting and Personal Web Applications
+### 5. Cybersecurity Practical Labs
+**Web Application Security and Technical Testing**
 
-**Technologies:** PHP, MySQL and Web Technologies
+Practised cybersecurity techniques in authorized training environments.
 
-Developed web-based applications, including voting and personal web projects.
-
-- [januariesvoting.kesug.com](https://januariesvoting.kesug.com/)
-- [januaries.kesug.com](https://januaries.kesug.com/)
+- SQL injection testing.
+- Web parameter discovery and fuzzing.
+- Linux command-line enumeration.
+- Web application vulnerability assessment.
+- Security testing and technical documentation.
 
 ---
 
-## 05. Academic Qualifications
+## Education
 
 ### Diploma in Information Communication Technology
+**Thika Institute of Business Studies (TIBS) | 2021 – 2023**
 
-**Thika Institute of Business Studies (TIBS)**
-
-2021 – 2023
-
-<small>Qualification: Credit</small>
+Grade: Credit
 
 ### Kenya Certificate of Secondary Education (KCSE)
+**Nzukini High School | 2015 – 2019**
 
-**Nzukini High School**
-
-2015 – 2019
-
-<small>Grade: C</small>
+Grade: C
 
 ### Kenya Certificate of Primary Education (KCPE)
-
-**Nzikini Primary School**
-
-2006 – 2014
+**Nzikini Primary School | 2006 – 2014**
 
 ---
 
-## 06. Professional Training and Development
+## Professional Training and Development
 
-### Cyber Shujaa – Security Analyst Track
+### Cyber Shujaa Programme – Security Analyst Track
+**September 2026 – November 2026**
 
-**Serianu Limited | USIU-Africa | Kenya Bankers Association**
+Admitted to the Cyber Shujaa Security Analyst training programme, delivered through a blended learning approach involving self-paced online learning and instructor-led coaching.
 
-September – November 2026
+Areas of professional development include:
 
-Professional development in cybersecurity and security analysis.
-
-### Technical and Professional Training
-
-- Computer software and hardware maintenance.
-- Systems maintenance.
-- Web design and development.
-- Graphic design.
-- QuickBooks.
-- AutoCAD.
-- Driving licence (2025).
-
----
-
-## 07. Additional Technical and Professional Skills
-
-**Software and Development**
-
-- Application and web development.
-- Database design and management.
-- Systems maintenance and administration.
-- Version control and collaborative development.
-
-**ICT Operations**
-
-- IT service management.
-- End-user support and training.
-- Client relationship management.
-- Hardware and software maintenance.
-- Network and infrastructure troubleshooting.
+- Cybersecurity fundamentals.
+- Security analysis.
+- Practical security testing.
 - Information security and risk management.
 
-**Communication and Collaboration**
-
-- Technical documentation and reporting.
-- Team collaboration and problem-solving.
-- Written and verbal communication.
-- Virtual collaboration using Zoom, Google Meet, Microsoft Teams and Skype.
-
----
-
-## 08. Professional Interests
-
-- Cybersecurity and ethical hacking.
-- Penetration testing and vulnerability assessment.
-- Secure software development.
-- Cloud computing and infrastructure.
-- Artificial intelligence and emerging technologies.
-- Enterprise systems and digital transformation.
-- Network security and infrastructure management.
+### Additional Technical Training
+- Computer Hardware and Software Maintenance.
+- Web Design.
+- Graphic Design.
+- QuickBooks.
+- AutoCAD.
 
 ---
 
-## 09. Professional References
+## Languages
 
-Professional referees and their contact details are available upon request.
+- English
+- Kiswahili
 
 ---
 
-<div align="center">
+## Professional Interests
 
-## JANUARIES MULI
+- Cybersecurity and Information Security.
+- Web and Systems Development.
+- Network and Infrastructure Security.
+- Cloud Computing.
+- ICT Innovation and Digital Transformation.
+- Enterprise Systems and Database Management.
 
-**ICT PROFESSIONAL | SYSTEMS DEVELOPER | CYBERSECURITY ENTHUSIAST**
+---
 
-*Technology • Innovation • Security • Digital Transformation*
+## References
 
-**Let's connect and build meaningful technology solutions.**
+Available upon request.
 
-✉️ januariesmuli87@gmail.com
+---
 
-☎️ +254 793 994 571
-
-</div>
+*Januaries Muli | ICT Professional | Web Developer | Systems Developer | Cybersecurity Enthusiast*
