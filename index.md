@@ -3,13 +3,67 @@ layout: single
 title: "Home"
 permalink: /
 author_profile: false
+sidebar: false
 classes: wide
 ---
 
 <style>
 /* =========================================
-   JANUARIES MULI - PROFESSIONAL PORTFOLIO
+   JANUARIES MULI - FULL WIDTH PORTFOLIO
 ========================================= */
+
+body:has(.portfolio-home) {
+  overflow-x: hidden;
+}
+
+/* Remove Minimal Mistakes sidebar and layout gaps */
+body:has(.portfolio-home) .sidebar,
+body:has(.portfolio-home) .author__avatar,
+body:has(.portfolio-home) .author__content,
+body:has(.portfolio-home) .author__urls-wrapper {
+  display: none !important;
+}
+
+body:has(.portfolio-home) #main,
+body:has(.portfolio-home) .initial-content,
+body:has(.portfolio-home) .page,
+body:has(.portfolio-home) .page__inner-wrap,
+body:has(.portfolio-home) .page__content,
+body:has(.portfolio-home) .archive {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  float: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body:has(.portfolio-home) #main {
+  padding: 0 !important;
+}
+
+body:has(.portfolio-home) .page {
+  padding: 0 !important;
+}
+
+body:has(.portfolio-home) .page__inner-wrap {
+  padding: 0 !important;
+}
+
+body:has(.portfolio-home) .page__content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body:has(.portfolio-home) .page__content > * {
+  max-width: none !important;
+}
+
+body:has(.portfolio-home) .page__title,
+body:has(.portfolio-home) .page__meta,
+body:has(.portfolio-home) .page__share {
+  display: none !important;
+}
 
 :root {
   --pm-green: #024115;
@@ -23,9 +77,9 @@ classes: wide
 }
 
 .portfolio-home {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
   color: var(--pm-text);
   font-family: inherit;
   overflow: hidden;
@@ -40,7 +94,8 @@ classes: wide
 }
 
 .portfolio-home .section-wrap {
-  padding: 85px 6%;
+  width: 100%;
+  padding: 85px max(6%, calc((100% - 1250px)/2));
 }
 
 .portfolio-home .section-heading {
@@ -80,11 +135,11 @@ classes: wide
 
 .portfolio-home .hero {
   position: relative;
+  width: 100%;
   min-height: 690px;
   display: flex;
   align-items: center;
   padding: 75px 7%;
-  border-radius: 0 0 30px 30px;
   overflow: hidden;
   color: white;
   background:
@@ -226,7 +281,7 @@ classes: wide
   color: var(--pm-gold);
 }
 
-/* PROFILE IMAGE */
+/* PROFILE PHOTO */
 
 .portfolio-home .profile-visual {
   position: relative;
@@ -569,7 +624,7 @@ classes: wide
   color: #a77a16;
 }
 
-/* PROFESSIONAL DEVELOPMENT */
+/* CYBERSECURITY TRAINING */
 
 .portfolio-home .training-panel {
   background: linear-gradient(120deg, #062b18, #07552b);
@@ -682,8 +737,14 @@ classes: wide
 /* ANIMATIONS */
 
 @keyframes pmFadeUp {
-  from { opacity: 0; transform: translateY(22px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .portfolio-home .hero-copy {
@@ -694,7 +755,7 @@ classes: wide
   animation: pmFadeUp 1s ease both;
 }
 
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE */
 
 @media (max-width: 900px) {
   .portfolio-home .hero-inner {
@@ -716,7 +777,6 @@ classes: wide
   .portfolio-home .hero {
     min-height: auto;
     padding: 65px 7% 80px;
-    border-radius: 0 0 20px 20px;
   }
 
   .portfolio-home .hero-inner,
@@ -802,7 +862,7 @@ classes: wide
 
 <div class="portfolio-home">
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
 
@@ -919,7 +979,7 @@ classes: wide
     </div>
   </section>
 
-  <!-- AREAS OF EXPERTISE -->
+  <!-- EXPERTISE -->
   <section class="section-wrap expertise-section">
     <div class="section-heading">
       <span>What I Do</span>
@@ -1009,7 +1069,7 @@ classes: wide
     </div>
   </section>
 
-  <!-- FEATURED PROJECTS -->
+  <!-- PROJECTS -->
   <section class="section-wrap projects-section">
     <div class="section-heading">
       <span>Selected Work</span>
@@ -1058,7 +1118,7 @@ classes: wide
           <p>A PHP and MySQL-based system under development to support diocesan and parish contribution management and reporting.</p>
           <details>
             <summary>Explore project details</summary>
-            <p>Planned and implemented features include contribution records, parish and diocesan tracking, allocation calculations, analytics, reporting, user roles and audit logs.</p>
+            <p>Features include contribution records, parish and diocesan tracking, allocation calculations, analytics, reporting, user roles and audit logs.</p>
           </details>
           <a class="project-link" href="/projects/">View Project Overview →</a>
         </div>
@@ -1122,6 +1182,7 @@ classes: wide
         </p>
         <a class="btn btn-gold" href="/resume/" style="margin-top:22px;">View Education & Training →</a>
       </div>
+
       <div class="training-badge">
         CYBER SHUJAA<br>
         SECURITY ANALYST<br>
