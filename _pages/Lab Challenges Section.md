@@ -1,4 +1,3 @@
-
 ---
 layout: single
 title: "Cybersecurity Lab Challenges"
