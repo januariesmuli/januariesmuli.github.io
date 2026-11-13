@@ -572,17 +572,6 @@ Practised cybersecurity techniques in authorized training environments.
 <h2 class="section-title">05. Education Background</h2>
 
 <div class="timeline">
-
-<div class="timeline-item">
-
-<h3>Diploma in Information Communication Technology</h3>
-
-**Thika Institute of Business Studies (TIBS)**
-
-2021 – 2023
-
-</div>
-
 <div class="timeline-item">
 
 <h3>Cybersecurity Training – Security Analyst Track</h3>
@@ -592,6 +581,16 @@ Practised cybersecurity techniques in authorized training environments.
 August 2026 – December 2026
 
 Undertook professional cybersecurity training through the Cyber Shujaa Programme, focusing on security analysis, practical cybersecurity skills, information security and risk management.
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Diploma in Information Communication Technology</h3>
+
+**Thika Institute of Business Studies (TIBS)**
+
+2021 – 2023
 
 </div>
 
