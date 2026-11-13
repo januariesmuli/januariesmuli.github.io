@@ -3,126 +3,456 @@
 layout: single
 title: "Home"
 permalink: /
-author_profile: true
+author_profile: false
 classes: wide
-
-header:
-  overlay_color: "#024115"
-  overlay_filter: "0.85"
-  show_overlay_excerpt: true
-
-excerpt: "Building Secure Systems. Connecting People. Enabling Digital Transformation."
-
 ---
 
-<div align="center">
+<style>
+.home-portfolio {
+  --green: #024115;
+  --dark: #062b18;
+  --gold: #c69b35;
+  --light: #f0f6f1;
+  --text: #26352b;
+  color: var(--text);
+  font-family: inherit;
+}
 
-# JANUARIES MULI
+.home-portfolio .hero {
+  background: linear-gradient(135deg, #062b18 0%, #024115 65%, #08733a 100%);
+  border-radius: 22px;
+  padding: 55px 35px;
+  color: #fff;
+  margin: 10px 0 35px;
+  position: relative;
+  overflow: hidden;
+}
 
-### ICT PROFESSIONAL | WEB DEVELOPER | SYSTEMS DEVELOPER | CYBERSECURITY ENTHUSIAST
+.home-portfolio .hero:before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 50%;
+  right: -100px;
+  top: -120px;
+}
 
-*Building secure systems. Connecting people. Enabling digital transformation.*
+.home-portfolio .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  position: relative;
+  z-index: 1;
+}
 
-</div>
+.home-portfolio .hero-text {
+  flex: 1 1 60%;
+}
 
----
+.home-portfolio .eyebrow {
+  color: #e7c66e;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 800;
+}
 
-## Welcome to My Professional Portfolio
+.home-portfolio .hero h1 {
+  color: #fff;
+  font-size: clamp(34px, 5vw, 52px);
+  line-height: 1.15;
+  margin: 15px 0;
+  font-weight: 850;
+}
 
-![Januaries Muli](/assets/images/januaries.jpeg){: .align-right width="230px"}
+.home-portfolio .hero h2 {
+  color: #e7c66e;
+  font-size: 20px;
+  line-height: 1.5;
+  border: none;
+  margin: 0 0 18px;
+}
 
-I am **Januaries Muli**, an Information and Communication Technology (ICT) professional passionate about technology, innovation, systems development and cybersecurity.
+.home-portfolio .hero p {
+  color: #e7eee9;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 650px;
+}
 
-Currently serving as the **Diocesan ICT Technician at the Catholic Diocese of Maralal (2025–Present)**, I work at the intersection of technology, infrastructure and digital innovation, providing ICT solutions that improve organizational efficiency, strengthen information security and support digital transformation.
+.home-portfolio .profile-photo {
+  flex: 0 0 230px;
+  text-align: center;
+}
 
-My professional experience encompasses web development, software and systems development, network administration, cybersecurity, server management, database administration and ICT infrastructure management.
+.home-portfolio .profile-photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid var(--gold);
+  box-shadow: 0 10px 35px rgba(0,0,0,.35);
+}
 
-I believe technology should go beyond solving today's challenges; it should create sustainable opportunities, empower institutions and shape a more connected digital future.
+.home-portfolio .hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
 
-<div align="center">
-  [Explore My Projects](#selected-projects){: .btn .btn--success}
-  [More About Me](/about/){: .btn .btn--primary}
-</div>
+.home-portfolio .btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 14px;
+  transition: .2s ease;
+}
 
----
+.home-portfolio .btn-primary {
+  background: var(--gold);
+  color: #152b1b !important;
+}
 
-## Professional Focus
+.home-portfolio .btn-outline {
+  border: 1px solid #fff;
+  color: #fff !important;
+}
 
-I combine practical technical experience, continuous learning and innovative thinking to develop and maintain reliable technology solutions.
+.home-portfolio .btn:hover {
+  transform: translateY(-3px);
+  opacity: .9;
+}
 
-### Technical Expertise
+.home-portfolio .section-heading {
+  color: var(--green);
+  font-size: 25px;
+  font-weight: 850;
+  margin: 42px 0 12px;
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: 10px;
+}
 
-| Area | Specialization |
-|---|---|
-| Web Development | HTML5, CSS3, JavaScript, PHP |
-| Systems Development | PHP, MySQL, database design and management |
-| Cybersecurity | Vulnerability assessment, security testing and system hardening |
-| Networking | Network configuration, troubleshooting and infrastructure |
-| System Administration | Linux, Windows, servers and backups |
-| ICT Infrastructure | CCTV, biometrics, intercom and hardware management |
-| ICT Management | Technical support, procurement, budgeting and project coordination |
+.home-portfolio .intro {
+  font-size: 16px;
+  line-height: 1.9;
+}
 
----
+.home-portfolio .highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 25px 0;
+}
 
-## Selected Projects
+.home-portfolio .highlight {
+  background: var(--light);
+  border: 1px solid #dce9df;
+  border-top: 4px solid var(--green);
+  padding: 22px;
+  border-radius: 12px;
+}
 
-### 1. Institutional Web Development
-Designing, developing and maintaining professional websites that improve institutional communication, accessibility and digital presence.
+.home-portfolio .highlight .symbol {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
 
-### 2. Radio Mchungaji Digital Platform
-Developing and supporting the digital presence of Radio Mchungaji, including its website, online broadcasting integration and digital engagement initiatives.
+.home-portfolio .highlight h3 {
+  color: var(--green);
+  font-size: 17px;
+  margin: 0 0 8px;
+}
 
-### 3. CDM Enterprise Resource Planning (ERP)
-Developing a PHP and MySQL-based ERP solution to support diocesan contribution management, financial tracking, reporting and institutional administration.
+.home-portfolio .highlight p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
 
-### 4. ICT Infrastructure and Systems Integration
-Implementing and maintaining ICT infrastructure, including networking, CCTV surveillance, biometric systems, servers and institutional technology solutions.
+.home-portfolio .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
 
----
+.home-portfolio .skill {
+  background: #eaf2ec;
+  color: var(--green);
+  border: 1px solid #d4e3d7;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 750;
+}
 
-## Professional Experience
+.home-portfolio .project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin: 20px 0;
+}
 
-**Diocesan ICT Technician**
+.home-portfolio .project {
+  padding: 22px;
+  border: 1px solid #e0e8e2;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(0,0,0,.045);
+}
 
-Catholic Diocese of Maralal | 2025 – Present
+.home-portfolio .project h3 {
+  color: var(--green);
+  font-size: 18px;
+  margin-top: 0;
+}
 
-- Manage and maintain diocesan ICT infrastructure and systems.
-- Develop and maintain institutional websites and digital platforms.
-- Provide technical support, system administration and troubleshooting.
-- Coordinate ICT infrastructure projects and technology deployments.
-- Support cybersecurity practices, data protection and system reliability.
-- Advise on ICT procurement, budgeting and technology improvements.
+.home-portfolio .project p {
+  font-size: 14px;
+  line-height: 1.75;
+}
 
----
+.home-portfolio .project a {
+  color: var(--green);
+  font-weight: 800;
+}
 
-## Beyond Technology
+.home-portfolio .closing {
+  background: var(--dark);
+  color: white;
+  padding: 35px 25px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 45px 0 15px;
+}
 
-I am committed to continuous professional development, innovation and practical learning. My interests include:
+.home-portfolio .closing h2 {
+  color: #e7c66e;
+  border: none;
+  margin-top: 0;
+}
 
-- Cybersecurity and ethical hacking.
-- Secure software and systems engineering.
-- Cloud computing and infrastructure.
-- Artificial intelligence and emerging technologies.
-- Digital transformation and technology leadership.
+.home-portfolio .closing p {
+  color: #e6eee8;
+}
 
-I believe that staying curious, continuously learning and applying knowledge to real-world challenges are essential to professional growth.
+@media (max-width: 700px) {
+  .home-portfolio .hero {
+    padding: 35px 22px;
+  }
 
----
+  .home-portfolio .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 
-## My Professional Philosophy
+  .home-portfolio .profile-photo {
+    flex-basis: auto;
+  }
 
-> Technology is most powerful when it solves real problems, protects people, connects communities and creates opportunities for the future.
+  .home-portfolio .profile-photo img {
+    width: 175px;
+    height: 175px;
+  }
 
-I am continually exploring new technologies, developing practical solutions and expanding my capabilities to contribute meaningfully to the evolving digital landscape.
+  .home-portfolio .hero-buttons {
+    justify-content: center;
+  }
 
----
+  .home-portfolio .highlight-grid,
+  .home-portfolio .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
-<div align="center">
+<div class="home-portfolio">
 
-## LET'S CONNECT
+  <section class="hero">
+    <div class="hero-content">
 
-**Innovate. Develop. Secure. Transform.**
+      <div class="hero-text">
+        <div class="eyebrow">Welcome to My Professional Portfolio</div>
 
-*Building technology solutions for a smarter and more secure digital future.*
+        <h1>JANUARIES MULI</h1>
+
+        <h2>ICT Professional | Web & Systems Developer | Cybersecurity Enthusiast</h2>
+
+        <p>
+          Transforming technology into practical solutions through innovation,
+          digital systems, secure infrastructure and creative problem-solving.
+          I am passionate about building reliable digital experiences that
+          empower people, institutions and communities.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="/resume/">Explore My Resume</a>
+          <a class="btn btn-outline" href="/projects/">View My Projects</a>
+        </div>
+      </div>
+
+      <div class="profile-photo">
+        <img src="/assets/images/januaries-muli.jpg"
+             alt="Professional portrait of Januaries Muli">
+      </div>
+
+    </div>
+  </section>
+
+  <h2 class="section-heading">About Me</h2>
+
+  <p class="intro">
+    I am an ICT professional currently serving as the <strong>Diocesan ICT Technician
+    at the Catholic Diocese of Maralal</strong>. My work involves managing ICT
+    infrastructure, supporting digital transformation, developing web-based
+    systems and maintaining reliable technology services.
+
+    <br><br>
+
+    I have a strong interest in web development, database management,
+    cybersecurity, networking and information systems. I enjoy identifying
+    technological challenges and developing solutions that improve efficiency,
+    security and service delivery.
+  </p>
+
+  <h2 class="section-heading">What I Do</h2>
+
+  <div class="highlight-grid">
+
+    <div class="highlight">
+      <div class="symbol">💻</div>
+      <h3>Web Development</h3>
+      <p>
+        Designing and developing responsive websites, web applications
+        and digital platforms using modern web technologies.
+      </p>
+    </div>
+
+    <div class="highlight">
+      <div class="symbol">🛡️</div>
+      <h3>Cybersecurity</h3>
+      <p>
+        Exploring information security, vulnerability assessment,
+        security analysis and responsible penetration testing in authorized labs.
+      </p>
+    </div>
+
+    <div class="highlight">
+      <div class="symbol">⚙️</div>
+      <h3>ICT Infrastructure</h3>
+      <p>
+        Managing networks, servers, computers, CCTV, biometric systems
+        and institutional ICT support services.
+      </p>
+    </div>
+
+  </div>
+
+  <h2 class="section-heading">Technical Skills</h2>
+
+  <p>
+    My technical interests and practical experience cover several areas of ICT:
+  </p>
+
+  <div class="skills">
+    <span class="skill">HTML5</span>
+    <span class="skill">CSS3</span>
+    <span class="skill">JavaScript</span>
+    <span class="skill">PHP</span>
+    <span class="skill">MySQL</span>
+    <span class="skill">Bootstrap</span>
+    <span class="skill">WordPress</span>
+    <span class="skill">Linux</span>
+    <span class="skill">Cybersecurity</span>
+    <span class="skill">Networking</span>
+    <span class="skill">Database Management</span>
+    <span class="skill">Git & GitHub</span>
+    <span class="skill">CCTV Systems</span>
+    <span class="skill">Server Administration</span>
+  </div>
+
+  <h2 class="section-heading">Featured Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project">
+      <h3>🌐 Catholic Diocese of Maralal Website</h3>
+      <p>
+        Development and maintenance of a diocesan digital platform
+        for communicating institutional information, events, news
+        and services.
+      </p>
+      <a href="https://maralalcatholicdiocese.org/" target="_blank" rel="noopener">
+        Visit Website →
+      </a>
+    </div>
+
+    <div class="project">
+      <h3>📻 Radio Mchungaji Website</h3>
+      <p>
+        Development of an online radio platform supporting digital
+        broadcasting, programme information and listener engagement.
+      </p>
+      <a href="https://radiomchungaji.co.ke/" target="_blank" rel="noopener">
+        Visit Website →
+      </a>
+    </div>
+
+    <div class="project">
+      <h3>📊 CDM ERP System</h3>
+      <p>
+        Development of a PHP and MySQL-based contributions management
+        platform with collection records, allocation tracking,
+        reporting and user access controls.
+      </p>
+      <a href="/projects/">Explore Project Details →</a>
+    </div>
+
+    <div class="project">
+      <h3>🔐 Cybersecurity Lab Challenges</h3>
+      <p>
+        Practical security learning involving SQL injection testing,
+        web application parameter discovery and Linux command-line
+        enumeration in authorized training environments.
+      </p>
+      <a href="/labs/">Explore Lab Challenges →</a>
+    </div>
+
+  </div>
+
+  <h2 class="section-heading">Professional Development</h2>
+
+  <div class="highlight">
+    <h3>Cyber Shujaa Programme – Security Analyst Track</h3>
+    <p>
+      <strong>United States International University-Africa (USIU-Africa)</strong>
+      <br>
+      August – December 2026
+      <br><br>
+      Currently undertaking professional cybersecurity training
+      focused on security analysis, practical security skills and
+      information security.
+    </p>
+  </div>
+
+  <section class="closing">
+    <h2>Let's Connect and Collaborate</h2>
+    <p>
+      I welcome opportunities to collaborate, exchange ideas and contribute
+      to projects that use technology to create meaningful impact.
+    </p>
+
+    <div class="hero-buttons" style="justify-content:center;">
+      <a class="btn btn-primary" href="/contact/">Contact Me</a>
+      <a class="btn btn-outline" href="https://github.com/januariesmuli"
+         target="_blank" rel="noopener">GitHub Profile</a>
+    </div>
+  </section>
 
 </div>
