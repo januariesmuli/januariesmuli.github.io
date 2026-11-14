@@ -288,7 +288,6 @@ The challenge involved investigating a web application that accepted user input 
 
 <div class="screenshot">
 
-  <strong>Screenshot 01 – Initial SQL Injection Testing</strong>
 
   <img
     src="{{ '/assets/images/SQL%20Injection.png' | relative_url }}"
@@ -297,16 +296,12 @@ The challenge involved investigating a web application that accepted user input 
     loading="lazy"
   >
 
-  <p>
-    Evidence showing the initial SQL injection testing process
-    and investigation of the application parameter.
-  </p>
 
 </div>
 
 <div class="screenshot">
 
-  <strong>Screenshot 02 – Further SQL Injection Investigation</strong>
+  
 
   <img
     src="{{ '/assets/images/SQL%20Injection%202.png' | relative_url }}"
@@ -382,7 +377,6 @@ The challenge involved examining a web application to understand how it handled 
 
 <div class="screenshot">
 
-  <strong>Screenshot 01 – Parameter Discovery</strong>
 
   <img
     src="{{ '/assets/images/Recoinance%201.png' | relative_url }}"
@@ -396,7 +390,6 @@ The challenge involved examining a web application to understand how it handled 
 
 <div class="screenshot">
 
-  <strong>Screenshot 02 – Testing Results</strong>
 
   <img
     src="{{ '/assets/images/Recoinance%202.png' | relative_url }}"
@@ -469,7 +462,6 @@ The objective was to develop familiarity with Linux command-line operations and 
 
 <div class="screenshot">
 
-  <strong>Screenshot 01 – User Identification</strong>
 
   <img
     src="{{ '/assets/images/whoami.png' | relative_url }}"
@@ -483,7 +475,6 @@ The objective was to develop familiarity with Linux command-line operations and 
 
 <div class="screenshot">
 
-  <strong>Screenshot 02 – Directory Enumeration</strong>
 
   <img
     src="{{ '/assets/images/lsla.png' | relative_url }}"
