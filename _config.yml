@@ -24,6 +24,10 @@ github_username: username
 minimal_mistakes_skin: default
 search: true
 
+# Portfolio logo settings (ADDED)
+logo: "/assets/images/logo.png"
+masthead_title: "Januaries Muli"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
