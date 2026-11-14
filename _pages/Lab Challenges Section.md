@@ -391,10 +391,6 @@ The challenge involved examining a web application to understand how it handled 
     loading="lazy"
   >
 
-  <p>
-    This screenshot illustrates the application request and the
-    identification of parameters selected for further security testing.
-  </p>
 
 </div>
 
@@ -409,11 +405,6 @@ The challenge involved examining a web application to understand how it handled 
     loading="lazy"
   >
 
-  <p>
-    This screenshot presents the comparison of application responses
-    during controlled testing to investigate how the application
-    handled different input values.
-  </p>
 
 </div>
 
@@ -468,6 +459,7 @@ The objective was to develop familiarity with Linux command-line operations and 
 </div>
 
 
+
 <h3>Evidence and Screenshots</h3>
 
 <p>
@@ -480,17 +472,12 @@ The objective was to develop familiarity with Linux command-line operations and 
   <strong>Screenshot 01 – User Identification</strong>
 
   <img
-    src="assets/images/whoami.png"
+    src="{{ '/assets/images/whoami.png' | relative_url }}"
     alt="Terminal showing the whoami command and its result"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
     loading="lazy"
   >
 
-  <p>
-    This screenshot shows the execution of the <code>whoami</code>
-    command to identify the current user account operating within
-    the authorized lab environment.
-  </p>
 
 </div>
 
@@ -499,19 +486,15 @@ The objective was to develop familiarity with Linux command-line operations and 
   <strong>Screenshot 02 – Directory Enumeration</strong>
 
   <img
-    src="assets/images/lsla.png"
+    src="{{ '/assets/images/lsla.png' | relative_url }}"
     alt="Terminal showing pwd and ls -la directory enumeration commands"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
     loading="lazy"
   >
 
-  <p>
-    This screenshot demonstrates the use of <code>pwd</code> and
-    <code>ls -la</code> to identify the current working directory
-    and inspect files and directories within the lab environment.
-  </p>
 
 </div>
+
 
 <h3>Key Lessons Learned</h3>
 
