@@ -370,16 +370,50 @@ The challenge involved examining a web application to understand how it handled 
 <span>Fuzzing Tools</span>
 </div>
 
+
 <h3>Evidence and Screenshots</h3>
 
+<p>
+  The following evidence demonstrates the application parameter
+  discovery process and the comparison of responses during
+  controlled testing in the authorized lab.
+</p>
+
 <div class="screenshot">
-<strong>Screenshot 01 – Parameter Discovery</strong>
-Add a screenshot showing the application request and identified parameters.
+
+  <strong>Screenshot 01 – Parameter Discovery</strong>
+
+  <img
+    src="assets/images/Recoinance 1.png"
+    alt="Application request showing discovered parameters during authorized lab testing"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
+  >
+
+  <p>
+    This screenshot illustrates the application request and the
+    identification of parameters selected for further security testing.
+  </p>
+
 </div>
 
 <div class="screenshot">
-<strong>Screenshot 02 – Testing Results</strong>
-Add a screenshot showing the comparison of application responses during controlled testing.
+
+  <strong>Screenshot 02 – Testing Results</strong>
+
+  <img
+    src="assets/images/Recoinance 2.png"
+    alt="Comparison of application responses during controlled security testing"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
+  >
+
+  <p>
+    This screenshot presents the comparison of application responses
+    during controlled testing to investigate how the application
+    handled different input values.
+  </p>
+
 </div>
 
 <h3>Key Lessons Learned</h3>
@@ -432,16 +466,50 @@ The objective was to develop familiarity with Linux command-line operations and 
 <span>Command Line</span>
 </div>
 
+
 <h3>Evidence and Screenshots</h3>
 
+<p>
+  The following screenshots document the initial reconnaissance
+  and environment identification performed in the authorized lab.
+</p>
+
 <div class="screenshot">
-<strong>Screenshot 01 – User Identification</strong>
-Add a screenshot showing the whoami command and its result.
+
+  <strong>Screenshot 01 – User Identification</strong>
+
+  <img
+    src="assets/images/whoami.png"
+    alt="Terminal showing the whoami command and its result"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
+  >
+
+  <p>
+    This screenshot shows the execution of the <code>whoami</code>
+    command to identify the current user account operating within
+    the authorized lab environment.
+  </p>
+
 </div>
 
 <div class="screenshot">
-<strong>Screenshot 02 – Directory Enumeration</strong>
-Add a screenshot showing pwd and ls -la results from the authorized lab.
+
+  <strong>Screenshot 02 – Directory Enumeration</strong>
+
+  <img
+    src="assets/images/lsla.png"
+    alt="Terminal showing pwd and ls -la directory enumeration commands"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
+  >
+
+  <p>
+    This screenshot demonstrates the use of <code>pwd</code> and
+    <code>ls -la</code> to identify the current working directory
+    and inspect files and directories within the lab environment.
+  </p>
+
 </div>
 
 <h3>Key Lessons Learned</h3>
