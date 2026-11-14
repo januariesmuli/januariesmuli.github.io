@@ -285,7 +285,7 @@ The challenge involved investigating a web application that accepted user input 
   <strong>Screenshot 01 – SQL Injection Testing</strong>
 
   <img
-    src="/assets/images/labs/sql-injection/SQL Injection.png"
+    src="assets/images/SQL Injection.png"
     alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
   >
@@ -300,7 +300,7 @@ The challenge involved investigating a web application that accepted user input 
   <strong>Screenshot 01 – SQL Injection Testing</strong>
 
   <img
-    src="/assets/images/labs/sql-injection/SQL Injection 2.png"
+    src="assets/images/SQL Injection 2.png"
     alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
   >
