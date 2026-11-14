@@ -280,15 +280,37 @@ The challenge involved investigating a web application that accepted user input 
 
 <h3>Evidence and Screenshots</h3>
 
+
 <div class="screenshot">
-<strong>Screenshot 01 – SQL Injection Testing</strong>
-Add a screenshot showing the authorized lab testing process and parameter investigation.
+  <strong>Screenshot 01 – SQL Injection Testing</strong>
+
+  <img
+    src="/assets/images/labs/sql-injection/SQL Injection.png"
+    alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+  >
+
+  <p>
+    Evidence showing the authorized SQL injection testing process
+    and parameter investigation.
+  </p>
 </div>
 
 <div class="screenshot">
-<strong>Screenshot 02 – Database Investigation</strong>
-Add a screenshot showing the successful lab result, with flags, credentials and sensitive values redacted.
+  <strong>Screenshot 01 – SQL Injection Testing</strong>
+
+  <img
+    src="/assets/images/labs/sql-injection/SQL Injection 2.png"
+    alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
+    style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+  >
+
+  <p>
+    Evidence showing the authorized SQL injection testing process
+    and parameter investigation.
+  </p>
 </div>
+
 
 <h3>Key Lessons Learned</h3>
 
