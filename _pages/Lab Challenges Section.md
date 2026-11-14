@@ -371,6 +371,7 @@ The challenge involved examining a web application to understand how it handled 
 </div>
 
 
+
 <h3>Evidence and Screenshots</h3>
 
 <p>
@@ -384,7 +385,7 @@ The challenge involved examining a web application to understand how it handled 
   <strong>Screenshot 01 – Parameter Discovery</strong>
 
   <img
-    src="assets/images/Recoinance 1.png"
+    src="{{ '/assets/images/Recoinance%201.png' | relative_url }}"
     alt="Application request showing discovered parameters during authorized lab testing"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
     loading="lazy"
@@ -402,7 +403,7 @@ The challenge involved examining a web application to understand how it handled 
   <strong>Screenshot 02 – Testing Results</strong>
 
   <img
-    src="assets/images/Recoinance 2.png"
+    src="{{ '/assets/images/Recoinance%202.png' | relative_url }}"
     alt="Comparison of application responses during controlled security testing"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
     loading="lazy"
