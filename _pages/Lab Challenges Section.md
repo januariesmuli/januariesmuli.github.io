@@ -278,37 +278,48 @@ The challenge involved investigating a web application that accepted user input 
 <span>Linux Terminal</span>
 </div>
 
+
 <h3>Evidence and Screenshots</h3>
 
+<p>
+  The following screenshots document the SQL injection testing
+  process and the investigation performed in the authorized lab.
+</p>
 
 <div class="screenshot">
-  <strong>Screenshot 01 – SQL Injection Testing</strong>
+
+  <strong>Screenshot 01 – Initial SQL Injection Testing</strong>
 
   <img
-    src="assets/images/SQL Injection.png"
-    alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
+    src="{{ '/assets/images/SQL%20Injection.png' | relative_url }}"
+    alt="Initial SQL injection testing and parameter investigation"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
   >
 
   <p>
-    Evidence showing the authorized SQL injection testing process
-    and parameter investigation.
+    Evidence showing the initial SQL injection testing process
+    and investigation of the application parameter.
   </p>
+
 </div>
 
 <div class="screenshot">
-  <strong>Screenshot 01 – SQL Injection Testing</strong>
+
+  <strong>Screenshot 02 – Further SQL Injection Investigation</strong>
 
   <img
-    src="assets/images/SQL Injection 2.png"
-    alt="SQL injection testing and parameter investigation in an authorized cybersecurity lab"
+    src="{{ '/assets/images/SQL%20Injection%202.png' | relative_url }}"
+    alt="Further SQL injection investigation in an authorized cybersecurity lab"
     style="width:100%; height:auto; display:block; margin-top:15px; border-radius:12px;"
+    loading="lazy"
   >
 
   <p>
-    Evidence showing the authorized SQL injection testing process
-    and parameter investigation.
+    Evidence showing the subsequent testing and investigation
+    performed during the authorized lab exercise.
   </p>
+
 </div>
 
 
